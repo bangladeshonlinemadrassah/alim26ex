@@ -3125,20 +3125,6 @@ const dashboardBtn = $('#dashboard-btn');
 dashboardBtn.addEventListener('click', () => {
   showDashboard();
 });
-
-document.addEventListener('DOMContentLoaded', () => {
-  if (checkLoginExpiry()) {
-    loginPage.style.display = 'none';
-    mainPage.style.display = 'block';
-    loadInitialData();
-    showAddClassButton();
-    showDashboardButton();
-  } else {
-    loginPage.style.display = 'flex';
-    mainPage.style.display = 'none';
-    subjectPage.style.display = 'none';
-  }
-  initializeEventListeners();
   
   // Main Website Functions
     function loadInitialData() {
