@@ -8,31 +8,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #FF8C00; /* কমলা */
-      --primary-dark: #cc7000; /* গাঢ় কমলা */
-      --secondary: #3CB371; /* সবুজ */
-      --accent: #8A2BE2; /* নীল-বেগুনি */
-      --danger: #ef4444; /* লাল */
-      --warning: #654321; /* বাদামী */
-      --dark: #020617; /* গাঢ় কালো - ব্যাকগ্রাউন্ড */
-      --darker: #000000; /* আরো গাঢ় - ডেপ্থ */
-      --light: #f1f5f9; /* হালকা সাদা - লাইট এলিমেন্ট */
-      --text: #f1f5f9; /* সাদা টেক্সট - ক্লিয়ার */
-      --text-muted: #94a3b8; /* হালকা ধূসর - মিউটেড */
-      --card-bg: rgba(15, 23, 42, 0.85); /* চকচকে গ্লাসি কার্ড - সামান্য নীল টিন্ট */
-      --card-border: rgba(255, 255, 255, 0.2); /* হালকা সাদা বর্ডার */
-      --glass: rgba(2, 6, 23, 0.75); /* গ্লাস ইফেক্ট - চকচকে */
-      --glass-border: rgba(255, 255, 255, 0.25); /* সামান্য চকচকে বর্ডার */
-      --gradient-primary: linear-gradient(135deg, #FF8C00 0%, #3CB371 50%, #8A2BE2 100%); /* কমলা-সবুজ-নীলবেগুনি */
-      --gradient-secondary: linear-gradient(135deg, #8A2BE2 0%, #FF8C00 50%, #3CB371 100%); /* নীলবেগুনি-কমলা-সবুজ */
-      --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.2); /* সামান্য শ্যাডো */
-      --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.3);
-      --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.35);
-      --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.4);
-      --radius: 16px;
-      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      --font-primary: 'Poppins', sans-serif;
-      --font-bangla: 'Tiro Bangla', serif;
+  --primary: #6A5ACD; /* স্লেটি ব্লু - প্রাইমারি, মিস্টিক এলিগ্যান্স */
+  --primary-dark: #0B1A2F; /* ডিপ ব্লু - প্রাইমারি ডার্ক, গভীরতা */
+  --secondary: #C71585; /* মিডনাইট ম্যাজেন্টা - সেকেন্ডারি, ড্রামাটিক টাচ */
+  --accent: #FF8C00; /* ডার্ক অরেঞ্জ - অ্যাকসেন্ট, উষ্ণ ও ঝলমলে */
+  --danger: #B22222; /* ফায়ারব্রিক রেড - ডেঞ্জার, শক্তিশালী সতর্কতা */
+  --warning: #DAA520; /* গোল্ডেনরড - ওয়ার্নিং, ক্লাসি ওয়ার্মথ */
+  --dark: #121212; /* ডার্ক গ্রে - ব্যাকগ্রাউন্ড, আরও সফিস্টিকেটেড */
+  --darker: #000000; /* ব্ল্যাক - ডেপ্থ */
+  --light: #FAF0E6; /* লিনেন - লাইট এলিমেন্ট, সফট ও প্রিমিয়াম */
+  --text: #F8F8FF; /* ঘোস্ট হোয়াইট - ফন্ট কালার, চোখে আরামদায়ক */
+  --text-muted: #A9A9A9; /* ডার্ক গ্রে - মিউটেড, প্রফেশনাল */
+  --card-bg: rgba(255, 255, 255, 0.06); /* সফট গ্লাসি কার্ড ব্যাকগ্রাউন্ড */
+  --card-border: rgba(255, 255, 255, 0.14); /* হালকা বর্ডার - মিনিমাল শাইন */
+  --glass: rgba(255, 255, 255, 0.04); /* গ্লাস ইফেক্ট - সফিস্টিকেটেড */
+  --glass-border: rgba(255, 255, 255, 0.18); /* বর্ডার হাইলাইট - subtle */
+  --gradient-primary: linear-gradient(135deg, #6A5ACD 0%, #C71585 45%, #FF8C00 100%); /* মিস্টিক-ড্রামাটিক-অরেঞ্জ গ্র্যাডিয়েন্ট */
+  --gradient-secondary: linear-gradient(135deg, #FF8C00 0%, #6A5ACD 55%, #C71585 100%); /* অরেঞ্জ-ব্লু-ম্যাজেন্টা গ্র্যাডিয়েন্ট */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.22); /* subtle depth */
+  --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.32);
+  --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.38);
+  --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.42);
+  --radius: 20px; /* আরও রাউন্ডেড, প্রিমিয়াম ফিল */
+  --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* আরও স্মুথ */
+  --font-primary: 'Poppins', sans-serif;
+  --font-bangla: 'Tiro Bangla', serif;
+  --clock-color: #FF8C00; /* ঘড়ির কালার - ডার্ক অরেঞ্জ, উষ্ণ ও ঝলমলে */
     }
 
     * {
